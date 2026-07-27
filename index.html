@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090909">
+  <title>RICKSBYGABE — Current Collection</title>
+  <meta name="description" content="High-quality footwear, clothing, bags and accessories at an affordable price.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">SAME-DAY SHIPPING AVAILABLE · ATLANTA, GEORGIA</div>
+
+  <section class="intro" id="intro">
+    <div class="intro__content">
+      <p>#1 RESELLER IN ATLANTA</p>
+      <h1>RICKSBYGABE</h1>
+      <span>FOOTWEAR · CLOTHING · BAGS · MISCELLANEOUS</span>
+      <button id="enterSite">ENTER THE SHOWROOM</button>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <a href="#top" class="wordmark">RICKSBYGABE</a>
+    <nav id="nav">
+      <button data-scroll="featured">Featured</button>
+      <button data-filter="shoes">Shoes</button>
+      <button data-filter="clothes">Clothes</button>
+      <button data-filter="bags">Bags</button>
+      <button data-filter="misc">Misc.</button>
+      <button data-scroll="faq">FAQ</button>
+      <button data-scroll="socials">Socials</button>
+    </nav>
+    <button class="menu-button" id="menuButton">MENU</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow">THE SHOWROOM</p>
+        <h2>Current Collection</h2>
+        <p class="hero__lead">High-quality pieces at an <em>affordable</em> price.</p>
+        <p class="hero__text">Premium footwear, clothing, bags, and accessories.</p>
+        <div class="hero__actions">
+          <a href="#featured" class="button button--light">SHOP NOW</a>
+          <a href="https://www.instagram.com/ricksbygabe?igsh=c25mZTRxdmFhbGt4&utm_source=qr" target="_blank" rel="noopener" class="button">INSTAGRAM</a>
+        </div>
+      </div>
+      <div class="hero__image" role="img" aria-label="RICKSBYGABE inventory"></div>
+    </section>
+
+    <section class="section" id="featured">
+      <div class="section-heading">
+        <div><p class="eyebrow">FEATURED</p><h2>Available & Coming Soon</h2></div>
+        <p>Tap any item to view photos, sizes, stock, and purchase details.</p>
+      </div>
+      <div class="featured-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><h2>Collections</h2><p>Browse by category.</p></div>
+      <div class="collection-grid">
+        <button class="collection-card collection-card--shoes" data-filter="shoes"><span>Shoes</span></button>
+        <button class="collection-card collection-card--clothes" data-filter="clothes"><span>Clothes</span></button>
+        <button class="collection-card collection-card--bags" data-filter="bags"><span>Bags</span></button>
+        <button class="collection-card collection-card--misc" data-filter="misc"><span>Misc.</span></button>
+      </div>
+    </section>
+
+    <section class="section" id="inventory">
+      <div class="section-heading">
+        <div><p class="eyebrow">INVENTORY</p><h2>Shop the Showroom</h2></div>
+        <p id="inventorySummary"></p>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="shoes">Shoes</button>
+          <button class="filter" data-filter="clothes">Clothes</button>
+          <button class="filter" data-filter="bags">Bags</button>
+          <button class="filter" data-filter="misc">Misc.</button>
+        </div>
+        <label class="search">
+          <span>SEARCH</span>
+          <input id="searchInput" type="search" placeholder="Search products">
+        </label>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-heading"><h2>FAQ</h2><p>Quick answers before you order.</p></div>
+      <div class="faq-grid">
+        <article><h3>How fast is shipping?</h3><p>Available items ship the same day or next business day. Most U.S. orders arrive within 2–5 business days after shipment.</p></article>
+        <article><h3>How do I purchase?</h3><p>Open a product and press Shop Now. You will be sent to Instagram to confirm availability and payment.</p></article>
+        <article><h3>What payments are accepted?</h3><p>Cash App, Zelle, PayPal, Apple Pay, and other agreed payment methods.</p></article>
+        <article><h3>Do you offer Atlanta meetups?</h3><p>Yes. Metro Atlanta meetups may be available for select orders.</p></article>
+        <article><h3>Will I receive tracking?</h3><p>Yes. Tracking is provided after the order is shipped.</p></article>
+        <article><h3>Are sales final?</h3><p>All sales are final due to limited inventory. Message immediately if there is an order issue.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="socials">
+      <div class="social-panel">
+        <p class="eyebrow">STAY CONNECTED</p>
+        <h2>RICKSBYGABE Everywhere.</h2>
+        <div class="social-list">
+          <a href="https://www.instagram.com/ricksbygabe?igsh=c25mZTRxdmFhbGt4&utm_source=qr" target="_blank" rel="noopener"><span>Instagram</span><strong>@ricksbygabe ↗</strong></a>
+          <a href="https://www.tiktok.com/@sexmoneyshoes?_r=1&_t=ZT-98Jpmrvbo45" target="_blank" rel="noopener"><span>TikTok</span><strong>@sexmoneyshoes ↗</strong></a>
+          <a href="https://depop.app.link/CA11fekl34b" target="_blank" rel="noopener"><span>Depop</span><strong>@ricksbygabe ↗</strong></a>
+          <div><span>YouTube</span><strong>Coming Soon</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 RICKSBYGABE · ATLANTA, GEORGIA</span>
+    <span>SAME-DAY SHIPPING ON AVAILABLE ITEMS</span>
+  </footer>
+
+  <div class="contact-bar">
+    <a href="https://www.instagram.com/ricksbygabe?igsh=c25mZTRxdmFhbGt4&utm_source=qr" target="_blank" rel="noopener">DM TO PURCHASE</a>
+    <a href="#inventory">SHOP</a>
+  </div>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <button class="modal__close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal__shell">
+      <div class="modal__gallery">
+        <img id="modalMainImage" alt="">
+        <div class="modal__thumbs" id="modalThumbs"></div>
+      </div>
+      <div class="modal__info">
+        <p class="eyebrow" id="modalBrand"></p>
+        <h2 id="modalName"></h2>
+        <div class="modal__price" id="modalPrice"></div>
+        <dl>
+          <div><dt>SIZES</dt><dd id="modalSizes"></dd></div>
+          <div><dt>STATUS</dt><dd id="modalStatus"></dd></div>
+          <div><dt>STOCK</dt><dd id="modalStock"></dd></div>
+          <div><dt>SHIPPING</dt><dd>Same day when available</dd></div>
+        </dl>
+        <div id="modalAction"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="product-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
